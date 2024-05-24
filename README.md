@@ -24,3 +24,5 @@ RK_FK2D_Temper_distribution_t.m ----            A nice simulations of microscopi
 RK_FK2D_fig1.m                  ----            v-F and beta-F
 
 RK_FK2D_strange.m               ----            Alpha and Fs, Fc singular peaks at presence temperature
+
+RK_FK2D_v_FcFs_parfor.m         ----            Generation of “force hysteresis loops”
