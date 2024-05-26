@@ -1,28 +1,23 @@
-# code
-This is our course paper MATLAB code source file, we list the name of the file with specific functions below:
+# MATLAB Code Source for Course Paper
 
-RK_FK1D_Classical.m             ----            Numerical simulation of a one-dimensional classical FK model, 
-                                                run to generate particle position images and relative 
-                                                position change Plot
+This repository contains the MATLAB code source files for our course paper. The following is a list of the files and their respective functions:
 
-RK_FK2D_Classical.m             ----            Using the RK method to simulate the classical two-dimensional
-                                                FK model, the initial condition m0 needs to be carefully
-                                                adjusted.
+1. `RK_FK1D_Classical.m`: Numerical simulation of a one-dimensional classical Frenkel-Kontorova (FK) model, run to generate particle position images and relative position change plots.
 
-RK_FK2D_alpha_F_relationship.m  ----            An image of Fs versus Fc with respect to alpha is generated 
-                                                after running the program.
+2. `RK_FK2D_Classical.m`: Using the Runge-Kutta (RK) method to simulate the classical two-dimensional FK model. The initial condition `m0` needs to be carefully adjusted.
 
-RK_FK2D_Ek_Ep_t_relationship.m  ----            Simulation to verify the energy homogenization theorem.
+3. `RK_FK2D_alpha_F_relationship.m`: Generates an image of `Fs` (static force) versus `Fc` (critical force) with respect to `alpha`.
 
-RK_FK2D_T_F_relationship.m      ----            An interesting code. From the results of this code run we get
-                                                images of Fs with respect to temperature T for different kappa,
-                                                producing bizarre image results.
+4. `RK_FK2D_Ek_Ep_t_relationship.m`: Simulation to verify the energy homogenization theorem.
 
-RK_FK2D_Temper_distribution_t.m ----            A nice simulations of microscopic heat transfer. We will get
-                                                a dynamic image of the temperature map.
+5. `RK_FK2D_T_F_relationship.m`: An interesting code that generates images of `Fs` with respect to temperature `T` for different `kappa`, producing bizarre image results.
 
-RK_FK2D_fig1.m                  ----            v-F and beta-F
+6. `RK_FK2D_Temper_distribution_t.m`: A simulation of microscopic heat transfer, providing a dynamic image of the temperature map.
 
-RK_FK2D_strange.m               ----            Alpha and Fs, Fc singular peaks at presence temperature
+7. `RK_FK2D_fig1.m`: Generates plots of `v-F` and `beta-F`.
 
-RK_FK2D_v_FcFs_parfor.m         ----            Generation of “force hysteresis loops”
+8. `RK_FK2D_strange.m`: Investigates the relationship between `alpha` and `Fs` and `Fc`, including the presence of singular peaks at certain temperatures.
+
+9. `RK_FK2D_v_FcFs_parfor.m`: Generates "force hysteresis loops".
+
+Feel free to explore and utilize these code files for your own research and projects. If you have any questions or need further assistance, please don't hesitate to contact us.
